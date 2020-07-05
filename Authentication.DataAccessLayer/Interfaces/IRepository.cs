@@ -12,6 +12,8 @@ namespace Authentication.DataAccessLayer.Interfaces
 
         Task<T> GetAsync(Expression<Func<T, bool>> predicate);
 
+        Task<bool> AnyAsync(Expression<Func<T, bool>> predicate);
+
         Task<IQueryable<T>> ReadsAsync();
 
         Task<int> UpdateAsync(T entity);
