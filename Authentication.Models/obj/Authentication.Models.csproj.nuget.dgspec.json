@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/ray/Documents/04_Project_專案/AuthenticationApp/Authentication.DataAccessLayer/Authentication.DataAccessLayer.csproj": {}
+    "/Users/ray/Documents/04_Project_專案/AuthenticationApp/Authentication.Models/Authentication.Models.csproj": {}
   },
   "projects": {
-    "/Users/ray/Documents/04_Project_專案/AuthenticationApp/Authentication.DataAccessLayer/Authentication.DataAccessLayer.csproj": {
+    "/Users/ray/Documents/04_Project_專案/AuthenticationApp/Authentication.Models/Authentication.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ray/Documents/04_Project_專案/AuthenticationApp/Authentication.DataAccessLayer/Authentication.DataAccessLayer.csproj",
-        "projectName": "Authentication.DataAccessLayer",
-        "projectPath": "/Users/ray/Documents/04_Project_專案/AuthenticationApp/Authentication.DataAccessLayer/Authentication.DataAccessLayer.csproj",
+        "projectUniqueName": "/Users/ray/Documents/04_Project_專案/AuthenticationApp/Authentication.Models/Authentication.Models.csproj",
+        "projectName": "Authentication.Models",
+        "projectPath": "/Users/ray/Documents/04_Project_專案/AuthenticationApp/Authentication.Models/Authentication.Models.csproj",
         "packagesPath": "/Users/ray/.nuget/packages/",
-        "outputPath": "/Users/ray/Documents/04_Project_專案/AuthenticationApp/Authentication.DataAccessLayer/obj/",
+        "outputPath": "/Users/ray/Documents/04_Project_專案/AuthenticationApp/Authentication.Models/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/ray/.nuget/NuGet/NuGet.Config"
@@ -36,16 +36,6 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[3.1.5, )"
-            },
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[3.1.5, )"
-            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
