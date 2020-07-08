@@ -1,7 +1,7 @@
 using System.Threading.Tasks;
-using Authentication.Models;
+using Authentication.Domain.Models;
 
-namespace Authentication.BusinessLayer.Interfaces
+namespace Authentication.Domain.Interfaces
 {
     public interface IAuthLogic
     {

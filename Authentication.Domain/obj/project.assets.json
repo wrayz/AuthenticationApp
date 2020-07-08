@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/ray/Documents/04_Project_專案/AuthenticationApp/Authentication.Models/Authentication.Models.csproj",
-      "projectName": "Authentication.Models",
-      "projectPath": "/Users/ray/Documents/04_Project_專案/AuthenticationApp/Authentication.Models/Authentication.Models.csproj",
+      "projectUniqueName": "/Users/ray/Documents/04_Project_專案/AuthenticationApp/Authentication.Domain/Authentication.Domain.csproj",
+      "projectName": "Authentication.Domain",
+      "projectPath": "/Users/ray/Documents/04_Project_專案/AuthenticationApp/Authentication.Domain/Authentication.Domain.csproj",
       "packagesPath": "/Users/ray/.nuget/packages/",
-      "outputPath": "/Users/ray/Documents/04_Project_專案/AuthenticationApp/Authentication.Models/obj/",
+      "outputPath": "/Users/ray/Documents/04_Project_專案/AuthenticationApp/Authentication.Domain/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/ray/.nuget/NuGet/NuGet.Config"

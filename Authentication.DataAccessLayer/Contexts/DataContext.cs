@@ -1,4 +1,4 @@
-using Authentication.Models;
+using Authentication.Domain.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace Authentication.DataAccessLayer.Contexts

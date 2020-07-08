@@ -24,6 +24,133 @@
         },
         "frameworks": {
           "netstandard2.0": {
+            "projectReferences": {
+              "/Users/ray/Documents/04_Project_專案/AuthenticationApp/Authentication.DataAccessLayer/Authentication.DataAccessLayer.csproj": {
+                "projectPath": "/Users/ray/Documents/04_Project_專案/AuthenticationApp/Authentication.DataAccessLayer/Authentication.DataAccessLayer.csproj"
+              },
+              "/Users/ray/Documents/04_Project_專案/AuthenticationApp/Authentication.Domain/Authentication.Domain.csproj": {
+                "projectPath": "/Users/ray/Documents/04_Project_專案/AuthenticationApp/Authentication.Domain/Authentication.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ray/Documents/04_Project_專案/AuthenticationApp/Authentication.DataAccessLayer/Authentication.DataAccessLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ray/Documents/04_Project_專案/AuthenticationApp/Authentication.DataAccessLayer/Authentication.DataAccessLayer.csproj",
+        "projectName": "Authentication.DataAccessLayer",
+        "projectPath": "/Users/ray/Documents/04_Project_專案/AuthenticationApp/Authentication.DataAccessLayer/Authentication.DataAccessLayer.csproj",
+        "packagesPath": "/Users/ray/.nuget/packages/",
+        "outputPath": "/Users/ray/Documents/04_Project_專案/AuthenticationApp/Authentication.DataAccessLayer/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ray/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "/Users/ray/Documents/04_Project_專案/AuthenticationApp/Authentication.Domain/Authentication.Domain.csproj": {
+                "projectPath": "/Users/ray/Documents/04_Project_專案/AuthenticationApp/Authentication.Domain/Authentication.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ray/Documents/04_Project_專案/AuthenticationApp/Authentication.Domain/Authentication.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ray/Documents/04_Project_專案/AuthenticationApp/Authentication.Domain/Authentication.Domain.csproj",
+        "projectName": "Authentication.Domain",
+        "projectPath": "/Users/ray/Documents/04_Project_專案/AuthenticationApp/Authentication.Domain/Authentication.Domain.csproj",
+        "packagesPath": "/Users/ray/.nuget/packages/",
+        "outputPath": "/Users/ray/Documents/04_Project_專案/AuthenticationApp/Authentication.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ray/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
             "projectReferences": {}
           }
         },

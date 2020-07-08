@@ -1,8 +1,7 @@
 using System.Threading.Tasks;
-using Authentication.BusinessLayer.Interfaces;
 using Authentication.DataAccessLayer;
-using Authentication.DataAccessLayer.Interfaces;
-using Authentication.Models;
+using Authentication.Domain.Interfaces;
+using Authentication.Domain.Models;
 
 namespace Authentication.BusinessLayer
 {

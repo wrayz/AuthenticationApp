@@ -2,8 +2,8 @@ using System;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
 using Authentication.DataAccessLayer.Contexts;
-using Authentication.DataAccessLayer.Interfaces;
-using Authentication.Models;
+using Authentication.Domain.Interfaces;
+using Authentication.Domain.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace Authentication.DataAccessLayer

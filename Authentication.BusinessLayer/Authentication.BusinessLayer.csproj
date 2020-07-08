@@ -1,8 +1,8 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\Authentication.Models\Authentication.Models.csproj" />
     <ProjectReference Include="..\Authentication.DataAccessLayer\Authentication.DataAccessLayer.csproj" />
+    <ProjectReference Include="..\Authentication.Domain\Authentication.Domain.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

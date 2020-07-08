@@ -3,9 +3,8 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
 
-namespace Authentication.DataAccessLayer.Interfaces
+namespace Authentication.Domain.Interfaces
 {
-
     public interface IRepository<T>
     {
         Task<int> CreateAsync(T entity);
