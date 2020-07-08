@@ -1,7 +1,7 @@
 using System;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
-using Authentication.DataAccessLayer.Contexts;
+using Authentication.DataAccessLayer.Data;
 using Authentication.Domain.Interfaces;
 using Authentication.Domain.Models;
 using Microsoft.EntityFrameworkCore;
@@ -14,7 +14,7 @@ namespace Authentication.DataAccessLayer
 
         public AuthRepository()
         {
-            // _context = new DataContext(x => x.UseSqlite(Configuration.GetConnectionString("DefaultConnection")));
+            _context = new DataContext();
         }
         public Task<int> CreateAsync(User entity)
         {
